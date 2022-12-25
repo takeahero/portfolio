@@ -1,0 +1,29 @@
+.animate-bottom {
+    animation:animatebottom 0.4s;
+    position:relative;
+}
+
+@keyframes animatebottom {
+    from{bottom:-300px;opacity:0} 
+    to{bottom:0;opacity:1}
+}
+
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+    margin: 1.5rem auto 1.5rem 0;
+}
+
+.bar-button {
+    border: none;
+    background: none;
+    font-family: 'Rajdhani';
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.magenta {
+    color:rgb(201, 45, 136);
+}

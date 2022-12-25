@@ -1,0 +1,32 @@
+.projects__container {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    min-height: calc(53% - 5rem);
+    width: 80%;
+}
+
+.projects__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__item {
+    width: 26.66%;
+}
+
+.projects__image {
+    width: 100%;
+}
+
+.projects__tittle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: .75rem;
+    width: 80%;
+}
+
+.projects__description {
+    width: 80%;
+    color: var(--gray);
+}

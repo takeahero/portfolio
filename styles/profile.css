@@ -1,0 +1,21 @@
+.profile-wrapper {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.profile-tittle {
+    font-size: 1.25rem;
+    color: var(--gray);
+}
+
+.profile-tittle__name {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+hr {
+    border: none;
+}

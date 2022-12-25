@@ -1,0 +1,79 @@
+.contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact__card {
+    border: 1px solid var(--black);
+    border-radius: .2rem;
+    display: flex;
+    width: 20rem;
+    height: 8rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.social__icon {
+    margin-right: .5rem;
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem .5rem .5rem 0;
+}
+
+.contact__tittle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.contact__description {
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+.contact-btn {
+    border: 1px solid var(--black);
+    border-radius: .50rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: var(--black);
+    font-weight: 700;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    padding: .25rem;
+}
+
+.contact-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border: 1px solid var(--magenta);
+    color: var(--magenta);
+}
+/*.contact__container {
+    padding: 1rem 1rem 1rem 0;
+}
+
+.contact__tittle {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.contact__description {
+    color: var(--gray);
+}
+
+.social__linkedin,
+.social__github {
+    width: 100%;
+}
+
+.social__linkedin {
+    margin-right: .5rem;
+}
+
+.social__github {
+    margin-left: .5rem;
+}

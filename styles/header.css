@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 5vh;
+    justify-content: center;
+    margin: 2vh auto 0 auto;
+    width: 90%;
+}
+
+.header__tittle {
+    font-weight: 700;
+    font-size: 4rem;
+
+    background: linear-gradient(135deg, #545454 0%, #464646 10%, #383838 20%, #343434 30%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: animate 5s linear infinite;
+    }
+    @keyframes animate {
+    to{
+        background-position: 200%;
+  }
+}
