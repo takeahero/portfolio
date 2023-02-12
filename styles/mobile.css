@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+    .sidebar-wrapper,
+    .bar-block,
+    .black,
+    .card {
+        display: none;
+    }
+
+    #me,
+    #skills,
+    #projects,
+    #contact {
+        display: block;
+        margin-bottom: 8rem;
+    }
+
+    #me {
+        margin-top: 8rem;
+    }
+
+
+    .page-content-wrapper {
+        flex-direction: column;
+    }
+
+    .projects__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects__item:nth-child(2){
+        margin: 4rem 0 4rem 0;
+    }
+
+    .projects__item {
+        width: 80%;
+    }
+
+    .contact-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+
+
+}

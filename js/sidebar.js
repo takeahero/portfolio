@@ -1,4 +1,5 @@
-function openLink(evt, animName) {
+if(window.innerWidth > 768.0001){
+    function openLink(evt, animName) {
     var i, x, tablinks;
     x = document.getElementsByClassName("bar__content");
     for (i = 0; i < x.length; i++) {
@@ -11,3 +12,4 @@ function openLink(evt, animName) {
     document.getElementById(animName).style.display = "block";
     evt.currentTarget.className += " magenta";
   }
+}

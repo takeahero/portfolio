@@ -1,13 +1,23 @@
-.contact-wrapper {
-    display: flex;
-    justify-content: space-around;
+#contact {
+    display: none;
 }
 
-.contact__card {
+.social__icon:nth-child(1) {
+    margin-right: 2rem;
+}
+
+.social__icon:nth-child(2) {
+    margin-left: 2rem;
+}
+
+.social__icon {
+    width: 80px;
+}
+/*.contact__card {
     border: 1px solid var(--black);
     border-radius: .2rem;
     display: flex;
-    width: 20rem;
+    width: 18rem;
     height: 8rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -50,30 +60,4 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border: 1px solid var(--magenta);
     color: var(--magenta);
-}
-/*.contact__container {
-    padding: 1rem 1rem 1rem 0;
-}
-
-.contact__tittle {
-    font-size: 2.3rem;
-    font-weight: 700;
-    margin-bottom: .5rem;
-}
-
-.contact__description {
-    color: var(--gray);
-}
-
-.social__linkedin,
-.social__github {
-    width: 100%;
-}
-
-.social__linkedin {
-    margin-right: .5rem;
-}
-
-.social__github {
-    margin-left: .5rem;
 }

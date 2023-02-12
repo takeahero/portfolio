@@ -1,3 +1,7 @@
+#projects {
+    display:none;
+}
+
 .projects__container {
     align-items: center;
     display: flex;
@@ -12,7 +16,7 @@
 }
 
 .projects__item {
-    width: 26.66%;
+    width: 30%;
 }
 
 .projects__image {
