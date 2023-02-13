@@ -2,14 +2,11 @@
     display: none;
 }
 
-.social__icon:nth-child(1) {
-    margin-right: 2rem;
-}
-
-.social__icon:nth-child(2) {
-    margin-left: 2rem;
+.contact-wrapper {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .social__icon {
-    width: 80px;
+    width: 90px;
 }

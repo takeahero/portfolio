@@ -2,21 +2,15 @@
     display:none;
 }
 
-.projects__container {
-    align-items: center;
-    display: flex;
-    margin: 0 auto;
-    min-height: calc(53% - 5rem);
-    width: 80%;
-}
-
 .projects__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .projects__item {
-    width: 30%;
+    width: 31.31%;
 }
 
 .projects__image {
@@ -27,10 +21,8 @@
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: .75rem;
-    width: 80%;
 }
 
 .projects__description {
-    width: 80%;
     color: var(--gray);
 }

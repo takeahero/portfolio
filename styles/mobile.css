@@ -36,8 +36,19 @@
         width: 80%;
     }
 
-    .contact-wrapper {
-        display: flex;
-        justify-content: center;
-    } 
+    .projects__list {
+        width: 100%;
+    }
+
+    .skills-wrapper 
+    .social__icon,
+    .profile-wrapper, {
+        width: 80%;
+    }
+
+    .social__icon {
+        width: 70px;
+    }
+    
+
 }
