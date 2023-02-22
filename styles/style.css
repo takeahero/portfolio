@@ -24,3 +24,7 @@ html, body {
     margin: 1.5rem auto;
     width: 70%;
 }
+
+::-webkit-scrollbar {
+    display: none
+}
