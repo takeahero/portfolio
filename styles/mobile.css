@@ -1,9 +1,15 @@
 @media screen and (max-width: 1024px) {
+
     .sidebar-wrapper,
     .bar-block,
     .black,
     .card {
         display: none;
+    }
+
+    .wrapper {
+        margin: 0;
+        width: 100%;
     }
 
     #me,
@@ -18,37 +24,34 @@
         margin-top: 8rem;
     }
 
-
     .page-content-wrapper {
         flex-direction: column;
+        width: 95%;
     }
 
-    .projects__list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .projects__item:nth-child(2){
-        margin: 4rem 0 4rem 0;
-    }
-
-    .projects__item {
-        width: 80%;
-    }
-
-    .projects__list {
+    .skills-wrapper {
         width: 100%;
     }
 
-    .skills-wrapper 
+    .projects-wrapper,
+    .projects__item,
+    .skills-wrapper,
     .social__icon,
     .profile-wrapper {
-        width: 80%;
+        width: 100%;
+    }
+
+    .projects__list {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .projects__item:nth-child(2) {
+        margin: 4rem 0 4rem 0;
     }
 
     .social__icon {
         width: 70px;
     }
-    
-
 }

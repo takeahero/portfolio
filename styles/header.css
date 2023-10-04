@@ -8,17 +8,17 @@
 }
 
 .header__tittle {
+    animation: animate 3.5s linear infinite;
+    background: linear-gradient(135deg, #e2e7f3 0%, #c4c8d2 10%, #989ba3 20%, #707277 30%);
+    background-size: 200%;
     font-weight: 700;
     font-size: 4rem;
-
-    background: linear-gradient(135deg, #545454 0%, #464646 10%, #383838 20%, #343434 30%);
-    background-size: 200%;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    animation: animate 5s linear infinite;
-    }
-    @keyframes animate {
-    to{
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes animate {
+    to {
         background-position: 200%;
-  }
+    }
 }

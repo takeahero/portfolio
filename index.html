@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="tittle" content="cadeMeuCode">
-    <meta name="description" content="html, css and javaScript. Begginer freelancer coder in Japan. 
-    Since 2022. Let's talk about the next project and work together. ">
-    <title>gma. | freelancer coder</title>
+    <meta name="description" content="html, css and javaScript. Begginer front end developer in Japan. 
+    Since 2022. Coding: html, css and javascript.">
+    <title>gma. | coder</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidebar.css">
@@ -21,6 +23,7 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/mobile.css">
 </head>
+
 <body>
     <header class="header">
         <h2 class="header__tittle">gma.</h2>
@@ -28,87 +31,99 @@
 
     <div class="wrapper">
 
-    <div class="sidebar-wrapper bar-block black card" style="width:130px">
-        <button class="bar-item bar-button tablink magenta" onclick="openLink(event, 'me')">me.</button>
-        <button class="bar-item bar-button tablink" onclick="openLink(event, 'skills')">skills.</button>
-        <button class="bar-item bar-button tablink" onclick="openLink(event, 'projects')">projects.</button>
-        <button class="bar-item bar-button tablink" onclick="openLink(event, 'contact')">contact.</button>
-    </div>
-    
-    <div class="page-content-wrapper">
+        <div class="sidebar-wrapper bar-block black card" style="width:130px">
+            <button id="sideBarBtn" class="bar-item bar-button tablink magenta"
+                onclick="openLink(event, 'me')">me.</button>
+            <button id="sideBarBtn" class="bar-item bar-button tablink"
+                onclick="openLink(event, 'skills')">skills.</button>
+            <button id="sideBarBtn" class="bar-item bar-button tablink"
+                onclick="openLink(event, 'projects')">projects.</button>
+            <button id="sideBarBtn" class="bar-item bar-button tablink"
+                onclick="openLink(event, 'contact')">contact.</button>
+        </div>
 
-    <div id="me" class="content__container bar__content animate-bottom profile-wrapper">
-        <h1 class="profile-tittle"> <span class="profile-tittle__name">hello! <div class="emoji wave">&#128075;</div>  i am gima.</span> <hr>
-            A brazilian guy, currently, based in Japan. 
-            I'm start to learn some front-end technologies
-            since 2022. In skills, you can check out what i am studying and practicing.
-            With these skills, I think I can already code simple web pages. 
-            I was a photographer, and that experience gave me a interest for design and colors. 
-            I would like to be a good coder and i hope i can help many people with my passion.
-        </h1>
-    </div>
+        <div class="page-content-wrapper">
 
-    <div id="skills" class="content__container bar__content animate-bottom skills-wrapper">
-        <ul class="skills__list">
-            <li class="skills__item">
-                <img src="img/html5.svg" alt="html5 icon" class="skills__icons">
-                <div class="skills__bar">
-                    <div class="skills html">35%</div>
-                </div>
-            </li>
-            <li class="skills__item">
-                <img src="img/css.svg" alt="css icon" class="skills__icons">
-                <div class="skills__bar">
-                    <div class="skills css">26%</div>
-                </div>
-            </li>
-            <li class="skills__item">
-                <img src="img/js.svg" alt="javaScript icon" class="skills__icons">
-                <div class="skills__bar">
-                    <div class="skills javaScript">8%</div>
-                </div>
-            </li>
-            <li class="skills__item">
-                <img src="img/ps.svg" alt="photoshop icon" class="skills__icons">
-                <div class="skills__bar">
-                    <div class="skills photoshop">20%</div>
-                </div>
-            </li>
-        </ul>
-    </div>
+            <div id="me" class="content__container bar__content animate-bottom profile-wrapper">
+                <h1 class="profile-tittle"><span class="profile-tittle__name">hello! <div class="emoji wave">&#128075;</div> i am gima.</span>
+                    <hr>
+                    A brazilian guy, currently, based in Japan.
+                    I'm start to learn some front-end technologies
+                    since 2022. In skills, you can check out what i am studying and practicing.
+                    With these skills, I think I can already code simple web pages.
+                    I was a photographer, and that experience gave me a interest for design and colors.
+                    I would like to be a good coder and i hope i can help many people with my passion.
+                </h1>
+            </div>
 
-    <div id="projects" class="content__container bar__content animate-bottom">
-        <ul class="projects__list">
-            <li class="projects__item">
-                <img src="img/imageicon.svg" alt="project image" class="projects__image">
-                <h2 class="projects__tittle">coming soon</h2>
-                <p class="projects__description">sorry, my projects list is empty. i am working to get an opportunity</p>
-            </li>
-            <li class="projects__item">
-                <img src="img/imageicon.svg" alt="project image" class="projects__image">
-                <h2 class="projects__tittle">coming soon</h2>
-                <p class="projects__description">sorry, my projects list is empty. i am working to get an opportunity</p>
-            </li>
-            <li class="projects__item">
-                <img src="img/imageicon.svg" alt="project image" class="projects__image">
-                <h2 class="projects__tittle">coming soon</h2>
-                <p class="projects__description">sorry, my projects list is empty. i am working to get an opportunity</p>
-            </li>
-        </ul>
-    </div>
+            <div id="skills" class="content__container bar__content animate-bottom skills-wrapper">
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <img src="img/html5.svg" alt="html5 icon" class="skills__icons">
+                        <div class="skills__bar">
+                            <div class="skills html">35%</div>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <img src="img/css.svg" alt="css icon" class="skills__icons">
+                        <div class="skills__bar">
+                            <div class="skills css">26%</div>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <img src="img/js.svg" alt="javaScript icon" class="skills__icons">
+                        <div class="skills__bar">
+                            <div class="skills javaScript">8%</div>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <img src="img/ps.svg" alt="photoshop icon" class="skills__icons">
+                        <div class="skills__bar">
+                            <div class="skills photoshop">20%</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
-    <div id="contact" class="content__container bar__content animate-bottom">
-        <div class="contact-wrapper">
-                <a href="https://www.linkedin.com/in/cademeucode88888888/" target="_blank"><img class="social__icon" src="img/linkedin.svg" alt="linkedin icon"></a> 
-                <a href="https://github.com/cadeMeuCode" target="_blank"><img class="social__icon" src="img/github.svg" alt="github icon"></a> 
+            <div id="projects" class="content__container bar__content animate-bottom projects-wrapper">
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <img src="img/imageicon.svg" alt="project image" class="projects__image">
+                        <h2 class="projects__tittle">coming soon</h2>
+                        <p class="projects__description">sorry, my projects list is empty. i am working to get an
+                            opportunity</p>
+                    </li>
+                    <li class="projects__item">
+                        <img src="img/imageicon.svg" alt="project image" class="projects__image">
+                        <h2 class="projects__tittle">coming soon</h2>
+                        <p class="projects__description">sorry, my projects list is empty. i am working to get an
+                            opportunity</p>
+                    </li>
+                    <li class="projects__item">
+                        <img src="img/imageicon.svg" alt="project image" class="projects__image">
+                        <h2 class="projects__tittle">coming soon</h2>
+                        <p class="projects__description">sorry, my projects list is empty. i am working to get an
+                            opportunity</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="contact" class="content__container bar__content animate-bottom">
+                <div class="contact-wrapper">
+                    <a href="https://www.linkedin.com/in/cademeucode88888888/" target="_blank"><img class="social__icon"
+                            src="img/linkedin.svg" alt="linkedin icon"></a>
+                    <a href="https://github.com/cadeMeuCode" target="_blank"><img class="social__icon"
+                            src="img/github.svg" alt="github icon"></a>
+                </div>
+            </div>
+
         </div>
     </div>
 
-    </div>
-    </div>
     <footer class="footer-wrapper">
         <p class="footer-content"> made with &#9749; by me </p>
     </footer>
+
     <script src="js/sidebar.js"></script>
 </body>
 </html>

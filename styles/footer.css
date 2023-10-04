@@ -5,6 +5,6 @@
 }
 
 .footer-content {
-    text-align: center;
     color: var(--dark-gray);
+    text-align: center;
 }

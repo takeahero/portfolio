@@ -20,22 +20,22 @@
 }
 
 .skills__icons {
-  width: 2rem;
   margin-right: .15rem;
+  width: 2rem;
 }
 
 .skills__bar {
   background-color: rgb(185, 181, 181); 
-  width: 100%;
   height: 32px; 
+  width: 100%; 
   }
 
 .skills {
   color: white;
   font-size: 12px; 
-  text-align: right; 
-  padding-top: 10px; 
   padding-bottom: 10px; 
+  padding-top: 10px; 
+  text-align: right; 
 }
 
 .html {
